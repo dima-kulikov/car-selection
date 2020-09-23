@@ -1,4 +1,4 @@
-https://dima-kulikov.github.io/car-selection/
+https://dima-kulikov.github.io/car-selection/build/index.html
 
 
 
