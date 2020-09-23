@@ -1,0 +1,73 @@
+section {
+  width: 90%;
+  height: 800px;
+  background-color: #d0d0b8;
+  margin: 0px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.name {
+  margin: 20px;
+}
+/* .decor {
+  border: 2px solid red;
+} */
+.car {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  width: 90%;
+  margin: 0px auto;
+  outline: 2px solid greenyellow;
+}
+
+.bg__style {
+  /* display: block; */
+  /* width: 100%; */
+  background-color: #1e3683;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+}
+.bg__style:hover{
+  background-color: #2da7bd;
+  cursor: pointer;
+}
+
+.decor{
+  border: 2px solid rgb(0, 0, 0);
+  text-align: left;
+  display: inline-block;
+  background-color: rgba(31, 82, 129, 0.692);
+  color: rgb(235, 223, 223);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 2px;
+  margin: 10px 0px;
+}
+
+
+
+#car__frame {
+  position: relative;
+  color: #ff0000;
+}
+.glass{
+  top: 130px;
+  left: 340px;
+  position: absolute;
+  width: 223px;
+  height: 58px;
+  background: #9CD6C0;
+  border-radius: 81px/23px;
+  z-index: 2;
+}
+
+#car__frame svg {
+  width: 50%;
+}
+
+#car__frame svg path {
+  fill: currentColor;
+}
+
+
