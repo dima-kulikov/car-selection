@@ -24,13 +24,14 @@ section {
 .bg__style {
   /* display: block; */
   /* width: 100%; */
-  background-color: #1e3683;
-  padding: 10px;
+  background-color: #23357291;
+  padding: 5px;
   color: white;
   margin: 5px;
 }
 .bg__style:hover {
-  background-color: #2da7bd;
+  background-color: #eaedeee3;
+  color: black;
   cursor: pointer;
 }
 
@@ -55,7 +56,7 @@ section {
   position: absolute;
   margin: 0px auto;
   z-index: 10;
-  color: #ff0000;
+  color: #31361f;
 }
 .glass {
   top: 57px;
@@ -79,9 +80,10 @@ section {
   top: 158px;
   left: 533px;
 }
-.radius {
-  background-color: gold;
+#radius {
+  background-color: rgb(185, 184, 176);
   border-radius: 50%;
+
 }
 
 #car__frame svg {
