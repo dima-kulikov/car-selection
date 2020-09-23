@@ -29,37 +29,59 @@ section {
   color: white;
   margin: 5px;
 }
-.bg__style:hover{
+.bg__style:hover {
   background-color: #2da7bd;
   cursor: pointer;
 }
 
-.decor{
+.decor {
   border: 2px solid rgb(0, 0, 0);
   text-align: left;
   display: inline-block;
   background-color: rgba(31, 82, 129, 0.692);
   color: rgb(235, 223, 223);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   padding: 2px;
   margin: 10px 0px;
 }
-
-
-
-#car__frame {
+.car__box {
   position: relative;
+  width: 700px;
+  height: 300px;
+  margin: 0px auto;
+  outline: 2px solid gold;
+}
+#car__frame {
+  position: absolute;
+  margin: 0px auto;
+  z-index: 10;
   color: #ff0000;
 }
-.glass{
-  top: 130px;
-  left: 340px;
+.glass {
+  top: 57px;
+  left: 142px;
   position: absolute;
-  width: 223px;
-  height: 58px;
-  background: #9CD6C0;
-  border-radius: 81px/23px;
-  z-index: 2;
+  width: 300px;
+  height: 74px;
+  background: #dc8282;
+  /* border-radius: 455px/80px; */
+  border-top-right-radius: 70%;
+  border-top-left-radius: 50%;
+  z-index: 0;
+}
+.wheel-left {
+  position: absolute;
+  top: 158px;
+  left: 97px;
+}
+.wheel-right {
+  position: absolute;
+  top: 158px;
+  left: 533px;
+}
+.radius {
+  background-color: gold;
+  border-radius: 50%;
 }
 
 #car__frame svg {
@@ -69,5 +91,3 @@ section {
 #car__frame svg path {
   fill: currentColor;
 }
-
-
