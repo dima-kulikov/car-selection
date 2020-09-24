@@ -18,11 +18,10 @@ avto_color3.addEventListener('click', CarColor3);
 avto_color4.addEventListener('click', CarColor4);
 
 // ЗАМЕНА ДИСКОВ У МАШИНЫ
-
+const radius = document.querySelector('#radius');
 
 function ColorWheel() {
   radius.style.backgroundColor = '#e6ff02';
 }
-
 
 avto_wheel1.addEventListener('click', ColorWheel);
