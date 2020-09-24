@@ -5,6 +5,7 @@ section {
   margin: 0px auto;
   text-align: center;
   overflow: hidden;
+  background-image: url(/images/bg.jpg);
 }
 
 .name {
@@ -18,7 +19,8 @@ section {
   /* justify-content: space-around; */
   width: 90%;
   margin: 0px auto;
-  outline: 2px solid greenyellow;
+  // outline: 2px solid greenyellow;
+  
 }
 
 .bg__style {
@@ -50,7 +52,7 @@ section {
   width: 700px;
   height: 300px;
   margin: 0px auto;
-  outline: 2px solid gold;
+  // outline: 2px solid gold;
 }
 #car__frame {
   position: absolute;
@@ -80,10 +82,10 @@ section {
   top: 158px;
   left: 533px;
 }
-#radius {
+.radius {
   background-color: rgb(185, 184, 176);
   border-radius: 50%;
-
+  background-color: #bdc023;
 }
 
 #car__frame svg {
