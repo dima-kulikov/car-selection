@@ -1,4 +1,6 @@
 // Функция смены цвета каркаса авто
+// const car__frame = document.querySelector('car__frame');
+
 function CarColor() {
   car__frame.style.color = '#e6ff02';
 }
@@ -18,10 +20,12 @@ avto_color3.addEventListener('click', CarColor3);
 avto_color4.addEventListener('click', CarColor4);
 
 // ЗАМЕНА ДИСКОВ У МАШИНЫ
-const radius = document.querySelector('#radius');
+const radius = document.querySelector('#radius', '#radius1');
 
 function ColorWheel() {
   radius.style.backgroundColor = '#e6ff02';
 }
+
+console.log(radius);
 
 avto_wheel1.addEventListener('click', ColorWheel);
