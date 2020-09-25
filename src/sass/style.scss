@@ -5,7 +5,8 @@ section {
   margin: 0px auto;
   text-align: center;
   overflow: hidden;
-  background-image: url(/images/bg.jpg);
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
 }
 
 .name {
@@ -20,7 +21,6 @@ section {
   width: 90%;
   margin: 0px auto;
   // outline: 2px solid greenyellow;
-  
 }
 
 .bg__style {
