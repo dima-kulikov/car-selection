@@ -50,4 +50,37 @@ function ColorWheel4() {
 avto_wheel1.addEventListener('click', ColorWheel);
 avto_wheel2.addEventListener('click', ColorWheel2);
 avto_wheel3.addEventListener('click', ColorWheel3);
-avto_wheel4.addEventListener('click', ColorWheel4);
+avto_wheel4.addEventListener('click', ColorWheel4); // ЗАТЕМНЕНИЕ СТЕКЛА В МАШИНЕ
+
+var range = document.querySelector('#range');
+var distance = document.querySelector('.distance');
+var glass = document.getElementById('glass');
+var glass_bt = document.getElementById('glass_bt'); //range ползунок
+
+range.onchange = function () {
+  document.querySelector('.distance').innerHTML = range.value;
+};
+
+function col() {
+  glass.style.opacity = range.value;
+}
+
+range.addEventListener('click', col); //Цвета для стекла
+
+function GlassColor() {
+  glass.style.backgroundColor = '#bdc023';
+}
+
+function GlassColor2() {
+  glass.style.backgroundColor = '#c94831';
+}
+
+function GlassColor3() {
+  glass.style.backgroundColor = '#31bfc9';
+}
+
+function GlassColor4() {
+  glass.style.backgroundColor = '#317428';
+}
+
+glass_bt.addEventListener('click', GlassColor);

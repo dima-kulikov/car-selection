@@ -67,11 +67,12 @@ section {
   position: absolute;
   width: 300px;
   height: 74px;
-  background: #dc8282;
+  background-color: black;
   /* border-radius: 455px/80px; */
   border-top-right-radius: 70%;
   border-top-left-radius: 50%;
   z-index: 0;
+  opacity: 1;
 }
 .wheel-left {
   position: absolute;
@@ -95,4 +96,10 @@ section {
 
 #car__frame svg path {
   fill: currentColor;
+}
+.glass__function {
+  margin-top: 100px;
+}
+.custom-range {
+  width: 100%;
 }
