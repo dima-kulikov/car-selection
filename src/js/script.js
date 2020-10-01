@@ -50,6 +50,9 @@ let range = document.querySelector('#range');
 let distance = document.querySelector('.distance');
 let glass = document.getElementById('glass');
 let glass_bt = document.getElementById('glass_bt');
+let glass_bt2 = document.getElementById('glass_bt2');
+let glass_bt3 = document.getElementById('glass_bt3');
+let glass_bt4 = document.getElementById('glass_bt4');
 
 //range ползунок
 range.onchange = function () {
@@ -59,9 +62,7 @@ range.onchange = function () {
 function col() {
   glass.style.opacity = range.value;
 }
-
 range.addEventListener('click', col);
-
 //Цвета для стекла
 function GlassColor() {
   glass.style.backgroundColor = '#bdc023';
@@ -75,5 +76,7 @@ function GlassColor3() {
 function GlassColor4() {
   glass.style.backgroundColor = '#317428';
 }
-
 glass_bt.addEventListener('click', GlassColor);
+glass_bt2.addEventListener('click', GlassColor2);
+glass_bt3.addEventListener('click', GlassColor3);
+glass_bt4.addEventListener('click', GlassColor4);

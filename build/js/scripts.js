@@ -55,7 +55,10 @@ avto_wheel4.addEventListener('click', ColorWheel4); // ЗАТЕМНЕНИЕ СТ
 var range = document.querySelector('#range');
 var distance = document.querySelector('.distance');
 var glass = document.getElementById('glass');
-var glass_bt = document.getElementById('glass_bt'); //range ползунок
+var glass_bt = document.getElementById('glass_bt');
+var glass_bt2 = document.getElementById('glass_bt2');
+var glass_bt3 = document.getElementById('glass_bt3');
+var glass_bt4 = document.getElementById('glass_bt4'); //range ползунок
 
 range.onchange = function () {
   document.querySelector('.distance').innerHTML = range.value;
@@ -84,3 +87,6 @@ function GlassColor4() {
 }
 
 glass_bt.addEventListener('click', GlassColor);
+glass_bt2.addEventListener('click', GlassColor2);
+glass_bt3.addEventListener('click', GlassColor3);
+glass_bt4.addEventListener('click', GlassColor4);
