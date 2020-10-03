@@ -79,6 +79,17 @@ section {
   top: 158px;
   left: 533px;
 }
+.graf{
+  position: absolute;
+  top: 130px;
+  left: 325px;
+  background-image: url(/images/grafic.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+}
+
 .radius {
   background-color: rgb(185, 184, 176);
   border-radius: 50%;
