@@ -1,9 +1,7 @@
 // Функция смены цвета каркаса авто
 const car__frame = document.querySelector('#car__frame');
 let range = document.querySelector('#range');
-let range2 = document.querySelector('#range2');
 let distance = document.querySelector('.distance');
-let distance2 = document.querySelector('.distance2');
 let glass = document.getElementById('glass');
 let glass_bt = document.getElementById('glass_bt');
 let glass_bt2 = document.getElementById('glass_bt2');
@@ -62,24 +60,14 @@ avto_wheel4.addEventListener('click', ColorWheel4);
 range.onchange = function () {
   document.querySelector('.distance').innerHTML = range.value;
 };
-range2.onchange = function () {
-  document.querySelector('.distance2').innerHTML = range2.value;
-};
+
 
 function col() {
   glass.style.opacity = range.value;
 }
 
-function col2() {
-  car__frame.style.opacity = range2.value;
-}
-
-
-
-
 
 range.addEventListener('click', col);
-range2.addEventListener('click', col2);
 //Цвета для стекла
 function GlassColor() {
   glass.style.backgroundColor = '#bdc023';

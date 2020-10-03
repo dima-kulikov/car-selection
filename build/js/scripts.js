@@ -3,9 +3,7 @@
 // Функция смены цвета каркаса авто
 var car__frame = document.querySelector('#car__frame');
 var range = document.querySelector('#range');
-var range2 = document.querySelector('#range2');
 var distance = document.querySelector('.distance');
-var distance2 = document.querySelector('.distance2');
 var glass = document.getElementById('glass');
 var glass_bt = document.getElementById('glass_bt');
 var glass_bt2 = document.getElementById('glass_bt2');
@@ -66,20 +64,11 @@ range.onchange = function () {
   document.querySelector('.distance').innerHTML = range.value;
 };
 
-range2.onchange = function () {
-  document.querySelector('.distance2').innerHTML = range2.value;
-};
-
 function col() {
   glass.style.opacity = range.value;
 }
 
-function col2() {
-  car__frame.style.opacity = range2.value;
-}
-
-range.addEventListener('click', col);
-range2.addEventListener('click', col2); //Цвета для стекла
+range.addEventListener('click', col); //Цвета для стекла
 
 function GlassColor() {
   glass.style.backgroundColor = '#bdc023';
