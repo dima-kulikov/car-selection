@@ -53,8 +53,9 @@ section {
   position: absolute;
   margin: 0px auto;
   z-index: 10;
-  color: #31361f;
+  color: #000000;
   opacity: 1;
+  transition: 1.2s;
 }
 .glass {
   top: 57px;
@@ -79,21 +80,36 @@ section {
   top: 158px;
   left: 533px;
 }
-.graf{
+.graf {
   position: absolute;
-  top: 130px;
-  left: 325px;
-  background-image: url(/images/grafic.jpg);
+  top: 120px;
+  left: 330px;
   background-size: cover;
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   z-index: 10;
 }
-
+.graf__size {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+.graf__back {
+  background-image: url(/images/airbrushing/pulia.png);
+}
+.graf__back2 {
+  background-image: url(/images/airbrushing/head.png);
+}
+.graf__back3 {
+  background-image: url(/images/airbrushing/gora.png);
+}
+.graf__back4 {
+  background-image: url(/images/airbrushing/play.png);
+}
 .radius {
   background-color: rgb(185, 184, 176);
   border-radius: 50%;
-  background-color: #bdc023;
+  transition: 1.2s;
 }
 
 #car__frame svg {
@@ -108,4 +124,8 @@ section {
 }
 .custom-range {
   width: 100%;
+}
+
+.red {
+  background-color: red;
 }
