@@ -83,47 +83,47 @@ range.onchange = function () {
 };
 function col() {
   glass.style.opacity = range.value;
-};
+}
 range.addEventListener('click', col);
 //Цвета для стекла
 function GlassColor() {
   glass.style.backgroundColor = 'rgb(189 193 40)';
-};
+}
 function GlassColor2() {
   glass.style.backgroundColor = '#c94831';
-};
+}
 function GlassColor3() {
   glass.style.backgroundColor = '#31bfc9';
-};
+}
 function GlassColor4() {
   glass.style.backgroundColor = '#317428';
-};
+}
 function GlassColor5() {
   glass.style.backgroundColor = 'black';
-};
+}
 
 glass_bt.addEventListener('click', GlassColor);
 glass_bt2.addEventListener('click', GlassColor2);
 glass_bt3.addEventListener('click', GlassColor3);
 glass_bt4.addEventListener('click', GlassColor4);
-glass_bt5.addEventListener("click", GlassColor5 );
+glass_bt5.addEventListener('click', GlassColor5);
 
 //  ФЭРОГРАФИЯ-----------------------
 function graffiti() {
-  graf.style.backgroundImage = 'url(../images/airbrushing/pulia.png)';
-};
+  graf.style.backgroundImage = 'url(./images/airbrushing/pulia.png)';
+}
 function graffiti2() {
-  graf.style.backgroundImage = 'url(../images/airbrushing/head.png)';
-};
+  graf.style.backgroundImage = 'url(./images/airbrushing/head.png)';
+}
 function graffiti3() {
-  graf.style.backgroundImage = 'url(../images/airbrushing/gora.png)';
-};
+  graf.style.backgroundImage = 'url(./images/airbrushing/gora.png)';
+}
 function graffiti4() {
-  graf.style.backgroundImage = 'url(../images/airbrushing/play.png)';
-};
+  graf.style.backgroundImage = 'url(./images/airbrushing/play.png)';
+}
 function graffiti5() {
   graf.style.backgroundImage = 'none';
-};
+}
 
 graf_bt.addEventListener('click', graffiti);
 graf_bt2.addEventListener('click', graffiti2);
