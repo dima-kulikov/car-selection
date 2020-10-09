@@ -25,6 +25,10 @@ const graf_bt2 = document.getElementById('graf_bt2');
 const graf_bt3 = document.getElementById('graf_bt3');
 const graf_bt4 = document.getElementById('graf_bt4');
 const graf_bt5 = document.getElementById('graf_bt5');
+const go = document.getElementById('go');
+const car__box = document.querySelector('.car__box');
+const wheel_left = document.querySelector('.wheel-left');
+const wheel_right = document.querySelector('.wheel-right');
 
 function CarColor() {
   car__frame.style.color = 'rgb(189 193 40)';
@@ -130,3 +134,13 @@ graf_bt2.addEventListener('click', graffiti2);
 graf_bt3.addEventListener('click', graffiti3);
 graf_bt4.addEventListener('click', graffiti4);
 graf_bt5.addEventListener('click', graffiti5);
+
+// МАШИНА ЕДЕТ
+
+function goCar() {
+  car__box.style.right = '-1550px';
+  wheel_right.style.transform = 'rotate(600deg)';
+  wheel_left.style.transform = 'rotate(600deg)';
+}
+
+go.addEventListener('click', goCar);
