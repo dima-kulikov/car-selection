@@ -138,6 +138,11 @@ section {
   margin: 20px auto;
 }
 
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
 // .car:hover .wheel-right {
 //   transform: rotate(400deg);
 // }
