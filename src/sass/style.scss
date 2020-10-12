@@ -122,9 +122,7 @@ section {
 #car__frame svg path {
   fill: currentColor;
 }
-.glass__function {
-  margin-top: 60px;
-}
+
 .custom-range {
   width: 100%;
 }
@@ -142,14 +140,17 @@ section {
   display: flex;
   justify-content: center;
 }
-
-// .car:hover .wheel-right {
-//   transform: rotate(400deg);
-// }
-// .car:hover .wheel-left {
-//   transform: rotate(400deg);
-// }
-// .car:hover .car__box {
-//   right: -1550px;
-//   transition: 10s;
-// }
+.flex-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.glass__function {
+  width: 40%;
+}
+.aero-flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
