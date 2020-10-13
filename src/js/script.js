@@ -29,6 +29,7 @@ const go = document.getElementById('go');
 const car__box = document.querySelector('.car__box');
 const wheel_left = document.querySelector('.wheel-left');
 const wheel_right = document.querySelector('.wheel-right');
+const back = document.getElementById("back")
 
 function CarColor() {
   car__frame.style.color = 'rgb(189 193 40)';
@@ -144,3 +145,18 @@ function goCar() {
 }
 
 go.addEventListener('click', goCar);
+
+
+function backCar() {
+  car__box.style.right = '0px';
+  car__box.style.transition = '6s';
+  wheel_right.style.transform = 'rotate(-600deg)';
+  wheel_left.style.transform = 'rotate(-600deg)';
+
+//   setTimeout(() => {
+//     car__box.style.left = '-100%'
+//     car__box.style.right = 'auto'
+//   }, 10000)
+}
+
+back.addEventListener('click', backCar);
